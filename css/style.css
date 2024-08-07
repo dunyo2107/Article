@@ -37,9 +37,8 @@ img{
 
 .main-content{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     flex-grow: 1;
-    /* align-items: center; */
 }
 
 /* Hero section */
@@ -55,13 +54,12 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 100%;
     max-width: 600px;
-    background-image: url("/img/hero-bg.jpeg");
+    background-image: url(../img/Rectangle\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    background-attachment: fixed;
 }
 .hero-content {
     width: 285px;
@@ -72,20 +70,22 @@ img{
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
 }
 .hero-link {
+    display: inline-block;
     text-decoration: none;
     color: #fff;
     font-family: "Bebas Neue", "Roboto Condensed", Arial, sans-serif;
     text-transform: uppercase;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2px;
+    background-color: #1E90FF;
 }
 .hero-link-content {
-    display: inline-block;
+    display: flex;
     padding: 12px 24px;
-    background-color: #1E90FF;
 }
 .hero-link-content::before{
     display: inline-block;
@@ -95,6 +95,7 @@ img{
     background-image: url(/img/Vector.svg);
     background-repeat: no-repeat;
     text-align: center;
+    margin-right: 12px;
 }
 
 .articles {
@@ -103,7 +104,8 @@ img{
 
 
 
-
+/* line-height: 24px;
+    letter-spacing: 2px; */
 
 
 @media
