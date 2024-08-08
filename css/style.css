@@ -185,6 +185,7 @@ img{
 
 }
 .item-videos-latest-info-meta {
+    display: flex;
     color: #888;
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-size: 14px;
