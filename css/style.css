@@ -179,7 +179,7 @@ img{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 2.3px;
     text-decoration: none;
     
 
@@ -187,10 +187,6 @@ img{
 .item-videos-latest-info-meta {
     display: flex;
     color: #888;
-    font-family: "Roboto Condensed", "Arial", sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0px;
     margin: 0;
 }
 
